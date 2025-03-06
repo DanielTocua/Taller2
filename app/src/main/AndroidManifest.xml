@@ -13,14 +13,34 @@ xmlns:tools="http://schemas.android.com/tools">
     android:theme="@style/Theme.Taller2"
     android:background="@color/gris"
     tools:targetApi="31">
-
     <activity
-        android:name=".Login_Activity"
+        android:name=".Splash_Activity"
         android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
+    </activity>
+    <activity
+        android:name=".Perfil_Activity"
+        android:exported="true"/>
+    <activity
+        android:name=".Login_Activity"
+        android:exported="false">
+    </activity>
+
+    <activity
+        android:name=".RegistroActivity"
+        android:exported="false">
+    </activity>
+    <activity
+        android:name=".Inicio_Activity"
+        android:exported="false">
+    </activity>
+   
+    <activity
+        android:name=".Recuperarcontra"
+        android:exported="false">
     </activity>
 
     <meta-data

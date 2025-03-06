@@ -36,8 +36,9 @@
     <EditText
         android:id="@+id/et_username"
         style="@style/EditTextRounded"
+        android:hint="Ingrese su usuario"
         android:layout_width="295dp"
-        android:layout_height="46dp"
+        android:layout_height="49dp"
         android:ems="10"
         android:inputType="text"
         android:textAlignment="textStart"
@@ -52,9 +53,10 @@
 
     <EditText
         android:id="@+id/et_contrasena"
+        android:hint="Ingrese su contraseña"
         style="@style/EditTextRounded"
         android:layout_width="295dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
         android:textAlignment="textStart"
@@ -97,7 +99,7 @@
     <TextView
         android:id="@+id/rpcontrasena"
         android:layout_width="344dp"
-        android:layout_height="32dp"
+        android:layout_height="48dp"
         android:fontFamily="serif"
         android:text="@string/recupere_contrasena"
         android:textAlignment="center"
@@ -149,7 +151,7 @@
         android:layout_marginEnd="56dp"
         android:layout_marginBottom="48dp"
         android:fontFamily="serif"
-        android:text="@string/Registro"
+        android:text="@string/registro"
         android:textAlignment="center"
         android:textColor="#F35E48"
         android:textSize="19sp"
